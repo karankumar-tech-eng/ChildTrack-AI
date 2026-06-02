@@ -1,0 +1,163 @@
+.app {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #eef4ff, #f8fafc);
+  color: #111827;
+}
+
+.navbar {
+  width: 100%;
+  height: 75px;
+  padding: 0 70px;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h2 {
+  color: white;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.navbar div {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #60a5fa;
+}
+
+.hero {
+  width: 85%;
+  max-width: 1100px;
+  margin: 80px auto;
+  text-align: center;
+  padding: 70px 60px;
+  background: white;
+  border-radius: 28px;
+  box-shadow: 0 25px 70px rgba(15, 23, 42, 0.12);
+}
+
+.tagline {
+  color: #2563eb;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.hero h1 {
+  font-size: 54px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.hero p {
+  font-size: 20px;
+  line-height: 1.7;
+  color: #475569;
+  max-width: 850px;
+  margin: auto;
+}
+
+.buttons {
+  margin-top: 38px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 15px 28px;
+  border: none;
+  border-radius: 12px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.secondary {
+  background: #0f172a;
+}
+
+.status {
+  margin: 40px auto 0;
+  max-width: 700px;
+  padding: 16px;
+  background: #dcfce7;
+  color: #047857;
+  border-radius: 14px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.page-box,
+.form-container {
+  max-width: 900px;
+  margin: 70px auto;
+  background: white;
+  padding: 50px;
+  border-radius: 24px;
+  box-shadow: 0 25px 70px rgba(15, 23, 42, 0.1);
+}
+
+.page-box h1,
+.form-container h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.page-box p {
+  font-size: 18px;
+  color: #475569;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container select {
+  padding: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.case-card {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  border-left: 5px solid #2563eb;
+}
+
+.case-card h3 {
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.case-card p {
+  margin-bottom: 6px;
+}
