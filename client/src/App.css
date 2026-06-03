@@ -161,3 +161,7 @@ button:hover {
 .case-card p {
   margin-bottom: 6px;
 }
+
+.danger {
+  background: #dc2626;
+}
